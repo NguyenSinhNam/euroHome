@@ -1,0 +1,141 @@
+/* Media Queries
+-------------------------------------------------------------- */
+@media only screen and (min-width: 1440px) {
+	
+}
+
+/* Media Queries
+-------------------------------------------------------------- */
+@media only screen and (max-width: 1439px) {
+
+}
+
+@media only screen and (max-width: 1366px) {
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1370px) {
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1300px) {
+}
+
+/* Smaller than standard 1200 */
+@media only screen and (max-width: 1199px) {
+}
+
+/* Smaller than standard 992 */
+@media only screen and (max-width: 991px) {
+	.btn-menu {
+		display: block ;
+	}
+
+	.nav-wrap {
+		position: relative;
+	}		
+
+	#mainnav {
+		display: none;
+	}	
+
+	.carousel .owl-controls {
+		display: none;
+	}
+
+	.rev_slider .tp-rightarrow {
+	    left: 105% !important;
+	}
+
+	.line-mobi {
+		height: 1px;
+		background: #979797;
+		opacity: 0.3;
+	}
+
+	.box-khuyenmai p {
+		font-size: 16px;
+	}
+
+	.padding-lr-mb-50 {
+		padding: 0 50px;
+	}
+
+	.mb-center {
+		text-align: center;
+	}
+
+	.padding-lr-mb-55 {
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+
+	.margin-t-mb-10 {
+	    margin-top: 10px;
+	}
+
+	.margin-b-mb-20 {
+		margin-bottom: 20px;
+	}
+
+	h2 {
+	    font-size: 20px;
+	}
+
+	.logo-bottom,
+	.button-go-top {
+		display: none;
+	}
+
+	.copyright {
+		float: none;
+	}
+
+	.grid.column-3 .item {
+		width: 50%;
+	}
+
+	.grid.column-4 .item {
+		width: 50%;
+	}
+
+	.wrap-pagination ul > li {
+		margin-bottom: 10px;
+	}
+
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 768px) {	   
+	.tparrows {
+	    width: 30px;
+	    height: 30px;
+	}
+
+	.tparrows:before {
+	    line-height: 30px;
+	    font-size: 10px;
+	}
+
+	.tp-bullet {
+	    width: 12px;
+	    height: 12px;
+	}
+}
+
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 480px) {	
+
+}
+
+@media (max-width: 360px) {
+	.grid.column-3 .item {
+		width: 100%;
+	}
+
+	.grid.column-4 .item {
+		width: 100%;
+	}
+}
+
