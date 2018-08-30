@@ -78,6 +78,10 @@
 		margin-bottom: 20px;
 	}
 
+	.margin-b-mb-30 {
+		margin-bottom: 30px;
+	}
+
 	h2 {
 	    font-size: 20px;
 	}
@@ -114,6 +118,26 @@
 	.one-haft {
 		width: 100%;
 		float: none;
+	}
+
+	.services-item-big .services-image {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.services-item-big .services-content {
+		width: 100%;
+	}
+
+	.services-item-big .services-content .inner {
+		position: static;
+		padding: 0;
+		-webkit-transform: translate(0, 0);
+		   -moz-transform: translate(0, 0);
+		    -ms-transform: translate(0, 0);
+		     -o-transform: translate(0, 0);
+		        transform: translate(0, 0);
 	}
 
 }
