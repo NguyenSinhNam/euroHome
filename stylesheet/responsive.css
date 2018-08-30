@@ -103,6 +103,19 @@
 		margin-bottom: 10px;
 	}
 
+	.contact-area {
+		padding: 40px 0;
+	}
+
+	.contact-container {
+	    padding: 0;
+	}
+
+	.one-haft {
+		width: 100%;
+		float: none;
+	}
+
 }
 
 /* All Mobile Sizes */
@@ -121,12 +134,34 @@
 	    width: 12px;
 	    height: 12px;
 	}
+
+	.iconbox {
+		margin-bottom: 30px;
+	}
+
+	.iconbox-container {
+		padding: 20px 20px 0;
+	}
+
+	.services-item .services-image {
+		float: none;
+		width: 100%;
+	}
+
+	.services-item .services-content {
+		padding: 20px;
+	}
 }
 
 
 /* Mobile Portrait Size */
-@media only screen and (max-width: 480px) {	
-
+@media only screen and (max-width: 576px) {	
+	.contact-form .field-row .two-column {
+		-webkit-box-flex: 0;
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	}
 }
 
 @media (max-width: 360px) {
